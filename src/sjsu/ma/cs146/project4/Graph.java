@@ -175,7 +175,7 @@ public class Graph {
 
         dimension = dimension_in;
         amountVertices = dimension * dimension;
-        myRandGen = new java.util.Random(5500);	//seed	is	0
+        myRandGen = new java.util.Random(0);	//seed	is	0
         startVertex = vertexList[0][0];	//set startVertex to top left
         
         endVertex = vertexList[dimension-1][dimension-1];	//set endVertex to bottom right
